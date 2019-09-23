@@ -1,0 +1,36 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "A CLI program in Node.js. The program checks weather data in command line.",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changhuixu/Weather-Nodejs-CLI.git"
+  },
+  "keywords": [
+    "cli",
+    "weather",
+    "forecast",
+    "temperature"
+  ],
+  "author": "Changhui Xu <changhuixu@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changhuixu/Weather-Nodejs-CLI/issues"
+  },
+  "homepage": "https://github.com/changhuixu/Weather-Nodejs-CLI#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.0",
+    "ora": "^4.0.1"
+  }
+}
