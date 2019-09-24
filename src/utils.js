@@ -1,24 +1,6 @@
 import axios from 'axios';
 import chalk from 'chalk';
 
-export async function queryCurrentWeather(cityId, units, apiKey) {
-  const baseUri = 'http://api.openweathermap.org/data/2.5/weather';
-  const url = getApiUrl(baseUri, cityId, units, apiKey);
-  return await axios({
-    method: 'get',
-    url: url
-  });
-}
-
-export async function queryWeatherForecast(cityId, units, apiKey) {
-  const baseUri = 'http://api.openweathermap.org/data/2.5/forecast';
-  const url = getApiUrl(baseUri, cityId, units, apiKey);
-  return await axios({
-    method: 'get',
-    url: url
-  });
-}
-
 export function validateApiKey(apiKey) {
   if (!apiKey || apiKey.length !== 32) {
     console.error(
@@ -73,6 +55,24 @@ export function validateUnits(units) {
     return false;
   }
   return true;
+}
+
+export async function queryCurrentWeather(cityId, units, apiKey) {
+  const baseUri = 'http://api.openweathermap.org/data/2.5/weather';
+  const url = getApiUrl(baseUri, cityId, units, apiKey);
+  return await axios({
+    method: 'get',
+    url: url
+  });
+}
+
+export async function queryWeatherForecast(cityId, units, apiKey) {
+  const baseUri = 'http://api.openweathermap.org/data/2.5/forecast';
+  const url = getApiUrl(baseUri, cityId, units, apiKey);
+  return await axios({
+    method: 'get',
+    url: url
+  });
 }
 
 function getApiUrl(baseUri, cityId, units, apiKey) {
