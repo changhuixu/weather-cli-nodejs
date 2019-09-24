@@ -2,7 +2,7 @@ import minimist from 'minimist';
 import { now } from './now';
 import { forecast } from './forecast';
 import { help } from './help';
-import { config } from './config';
+import { configure } from './configure';
 import { version } from './version';
 
 export async function cli(argsArray) {
@@ -35,7 +35,7 @@ export async function cli(argsArray) {
       break;
 
     case 'config':
-      config(args);
+      configure(args);
       break;
 
     default:

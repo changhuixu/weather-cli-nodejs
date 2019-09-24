@@ -14,19 +14,27 @@ ${chalk.greenBright('weather [command] <options>')}
   now: `
 ${chalk.greenBright('weather now <options>')}
 
-  --location, -l ..... the location to use
+  --api-key, -k ..... set the API Key for OpenWeatherMap services if you haven't set it in configure method.
+  --city, -c ........ set the City ID in OpenWeatherMap if you want to query weather data in a city different from the default one.
+  --units, -u ....... set the temperature units if you want to read temperature in a different unit.
 `,
 
   forecast: `
 ${chalk.greenBright('weather forecast <options>')}
 
-  --location, -l ..... the location to use
+  --api-key, -k ..... set the API Key for OpenWeatherMap services if you haven't set it in configure method.
+  --city, -c ........ set the City ID in OpenWeatherMap if you want to query weather data in a city different from the default one.
+  --units, -u ....... set the temperature units if you want to read temperature in a different unit.
 `,
 
   config: `
   ${chalk.greenBright('weather config <options>')}
 
-  --location, -l ..... the location to use
+  --print, -p ....... print current configuration object.
+
+  --api-key, -k ..... [Required] set the API Key for OpenWeatherMap services.
+  --city, -c ........ [Optional] set the default City ID in OpenWeatherMap. Default: 4862034
+  --units, -u ....... [Optional] set the default temperature units. Options: Kelvin (default), Celsius, Fahrenheit.
 `,
 }
 
