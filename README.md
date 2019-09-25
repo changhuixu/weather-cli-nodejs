@@ -4,7 +4,7 @@ A CLI program in Node.js. The program checks weather data in command line.
 
 [![npm](https://img.shields.io/npm/v/best-weather-cli.svg?style=flat-square)](https://www.npmjs.com/package/best-weather-cli)
 
-## [Medium Article]()
+## [Medium Article](https://codeburst.io/build-a-command-line-interface-cli-application-with-node-js-59becec90e28)
 
 ## Usages
 
@@ -12,23 +12,25 @@ A CLI program in Node.js. The program checks weather data in command line.
 npm i -g best-weather-cli
 weather
 weather config -k={your api key} -c={your city id} -u={temperature units}
+weather now
+weather forecast
 ```
 
 ## Screenshots
 
-#### main menu
+### `main menu`
 
-![main memu](./assets/main-menu.png)
+<img src="./assets/main-menu.png" width="650">
 
-### weather now
+### `weather now`
 
-![weather now](./assets/weather-now.png)
+<img src="./assets/weather-now.png" width="550">
 
-### weather forecast
+### `weather forecast`
 
-![weather forecast](./assets/weather-forecast.png)
+<img src="./assets/weather-forecast.png" width="450">
 
-## How to build locally?
+## How to build locally
 
 ```sh
 npm i
