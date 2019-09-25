@@ -2,7 +2,17 @@
 
 A CLI program in Node.js. The program checks weather data in command line.
 
+[![npm](https://img.shields.io/npm/v/best-weather-cli.svg?style=flat-square)](https://www.npmjs.com/package/best-weather-cli)
+
 ## [Medium Article]()
+
+## Usages
+
+```sh
+npm i -g best-weather-cli
+weather
+weather config -k={your api key} -c={your city id} -u={temperature units}
+```
 
 ## Screenshots
 

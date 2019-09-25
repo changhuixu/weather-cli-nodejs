@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "best-weather-cli",
   "version": "1.0.0",
   "description": "A CLI program in Node.js. The program checks weather data in command line.",
   "main": "index.js",
