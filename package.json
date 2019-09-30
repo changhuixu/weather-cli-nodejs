@@ -1,7 +1,7 @@
 {
   "name": "best-weather-cli",
-  "version": "1.0.0",
-  "description": "A CLI program in Node.js. The program checks weather data in command line.",
+  "version": "1.0.1",
+  "description": "A weather CLI app in Node.js. The app checks weather in command line.",
   "main": "index.js",
   "bin": {
     "weather": "./index.js"
@@ -11,28 +11,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/changhuixu/Weather-Nodejs-CLI.git"
+    "url": "git+https://github.com/changhuixu/weather-cli-nodejs.git"
   },
   "keywords": [
-    "cli",
     "weather",
+    "cli",
+    "best",
     "forecast",
     "temperature"
   ],
   "author": "Changhui Xu <changhuixu@hotmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/changhuixu/Weather-Nodejs-CLI/issues"
+    "url": "https://github.com/changhuixu/weather-cli-nodejs/issues"
   },
-  "homepage": "https://github.com/changhuixu/Weather-Nodejs-CLI#readme",
+  "homepage": "https://github.com/changhuixu/weather-cli-nodejs#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "chalk": "^2.4.2",
-    "clear": "^0.1.0",
     "cli-table3": "^0.5.1",
-    "conf": "^6.0.1",
+    "conf": "^6.1.0",
     "esm": "^3.2.25",
-    "minimist": "^1.2.0",
-    "ora": "^4.0.1"
+    "minimist": "^1.2.0"
   }
 }

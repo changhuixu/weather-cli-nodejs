@@ -1,6 +1,6 @@
-# Weather Nodejs CLI
+# Weather CLI in Node.js
 
-A CLI program in Node.js. The program checks weather data in command line.
+A weather CLI app in Node.js. The app checks weather in command line.
 
 [![npm](https://img.shields.io/npm/v/best-weather-cli.svg?style=flat-square)](https://www.npmjs.com/package/best-weather-cli)
 
