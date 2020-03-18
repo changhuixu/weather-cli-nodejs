@@ -1,6 +1,6 @@
 {
   "name": "best-weather-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A weather CLI app in Node.js. The app checks weather in command line.",
   "main": "index.js",
   "bin": {
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/changhuixu/weather-cli-nodejs#readme",
   "dependencies": {
-    "axios": "^0.19.0",
-    "chalk": "^2.4.2",
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
     "cli-table3": "^0.5.1",
-    "conf": "^6.1.0",
+    "conf": "^6.2.1",
     "esm": "^3.2.25",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.5"
   }
 }
