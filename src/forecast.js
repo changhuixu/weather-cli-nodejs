@@ -39,7 +39,7 @@ export async function forecast(args) {
 
   const table = new Table({
     head: ['DateTime', 'Weather', 'Temp'],
-    colWidths: [23, 18, 7],
+    colWidths: [23, 18, 10],
     wordWrap: true
   });
   data.list.forEach(w => {

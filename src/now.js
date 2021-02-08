@@ -39,7 +39,7 @@ export async function now(args) {
 
   const table = new Table({
     head: ['City', 'DateTime', 'Weather', 'Temp'],
-    colWidths: [15, 23, 18, 7],
+    colWidths: [15, 23, 18, 10],
     wordWrap: true
   });
   table.push([
