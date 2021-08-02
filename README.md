@@ -1,5 +1,7 @@
 # Weather CLI in Node.js
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I63W4OK)
+
 A weather CLI app in Node.js. The app checks weather in command line.
 
 [![npm](https://img.shields.io/npm/v/best-weather-cli.svg?style=flat-square)](https://www.npmjs.com/package/best-weather-cli)
@@ -36,3 +38,9 @@ weather forecast
 npm i
 npm link
 ```
+
+## License
+
+Feel free to use the code in this repository as it is under MIT license.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I63W4OK)
