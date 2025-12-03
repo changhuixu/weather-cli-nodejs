@@ -22,15 +22,15 @@ weather forecast
 
 ### `main menu`
 
-<img src="./assets/main-menu.png" width="650">
+<img src="./assets/main-menu.png" alt="main menu" width="650">
 
 ### `weather now`
 
-<img src="./assets/weather-now.png" width="550">
+<img src="./assets/weather-now.png"  alt="weather today" width="550">
 
 ### `weather forecast`
 
-<img src="./assets/weather-forecast.png" width="450">
+<img src="./assets/weather-forecast.png"  alt="Alternate future" width="450">
 
 ## How to build locally
 

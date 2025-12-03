@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/changhuixu/weather-cli-nodejs#readme",
   "dependencies": {
-    "axios": "^0.27.2",
-    "chalk": "^5.0.1",
-    "cli-table3": "^0.6.3",
-    "conf": "^10.2.0",
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "conf": "^15.0.2",
     "esm": "^3.2.25",
-    "minimist": "^1.2.6"
+    "minimist": "^1.2.8"
   }
 }
