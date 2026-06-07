@@ -1,5 +1,5 @@
 import Conf from 'conf';
-import { validateApiKey, validateCityId, validateUnits } from './utils';
+import { validateApiKey, validateCityId, validateUnits } from './utils.js';
 
 export const configKey = 'weather-cli';
 

@@ -1,9 +1,9 @@
 import minimist from 'minimist';
-import { now } from './now';
-import { forecast } from './forecast';
-import { help } from './help';
-import { configure } from './configure';
-import { version } from './version';
+import { now } from './now.js';
+import { forecast } from './forecast.js';
+import { help } from './help.js';
+import { configure } from './configure.js';
+import { version } from './version.js';
 
 export async function cli(argsArray) {
   const args = minimist(argsArray.slice(2));
