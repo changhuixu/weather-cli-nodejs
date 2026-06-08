@@ -2,6 +2,7 @@
   "name": "best-weather-cli",
   "version": "1.0.3",
   "description": "A weather CLI app in Node.js. The app checks weather in command line.",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "weather": "./index.js"
@@ -31,7 +32,6 @@
     "chalk": "^5.6.2",
     "cli-table3": "^0.6.5",
     "conf": "^15.0.2",
-    "esm": "^3.2.25",
     "minimist": "^1.2.8"
   }
 }

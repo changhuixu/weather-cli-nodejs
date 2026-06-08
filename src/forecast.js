@@ -1,12 +1,12 @@
 import Conf from 'conf';
 import Table from 'cli-table3';
-import { configKey } from './configure';
+import { configKey } from './configure.js';
 import {
   validateApiKey,
   validateCityId,
   validateUnits,
   queryWeatherForecast,
-} from './utils';
+} from './utils.js';
 
 export async function forecast(args) {
   const config = new Conf().get(configKey);
