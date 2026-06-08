@@ -1,15 +1,15 @@
 import Conf from 'conf';
 import Table from 'cli-table3';
-import { configKey } from './configure.js';
+import { configKey, projectName } from './configure.js';
 import {
   validateApiKey,
   validateCityId,
   validateUnits,
-  queryCurrentWeather
+  queryCurrentWeather,
 } from './utils.js';
 
 export async function now(args) {
-  const config = new Conf().get(configKey);
+  const config = new Conf({ projectName: projectName }).get(configKey);
   const apiKey =
     args.apiKey ||
     args.apikey ||
@@ -40,13 +40,13 @@ export async function now(args) {
   const table = new Table({
     head: ['City', 'DateTime', 'Weather', 'Temp'],
     colWidths: [15, 23, 18, 10],
-    wordWrap: true
+    wordWrap: true,
   });
   table.push([
     data.name,
     new Date(data.dt * 1000).toLocaleString(),
     data.weather[0].description,
-    data.main.temp
+    data.main.temp,
   ]);
   console.log(table.toString());
 }
@@ -61,7 +61,7 @@ const exampleData = {
     pressure: 1011,
     humidity: 37,
     temp_min: 26.67,
-    temp_max: 29
+    temp_max: 29,
   },
   visibility: 16093,
   wind: { speed: 7.2, deg: 200, gust: 11.8 },
@@ -73,10 +73,10 @@ const exampleData = {
     message: 0.0079,
     country: 'US',
     sunrise: 1569326121,
-    sunset: 1569369663
+    sunset: 1569369663,
   },
   timezone: -18000,
   id: 4862034,
   name: 'Iowa City',
-  cod: 200
+  cod: 200,
 };

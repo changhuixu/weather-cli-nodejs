@@ -1,6 +1,6 @@
 import Conf from 'conf';
 import Table from 'cli-table3';
-import { configKey } from './configure.js';
+import { configKey, projectName } from './configure.js';
 import {
   validateApiKey,
   validateCityId,
@@ -9,7 +9,7 @@ import {
 } from './utils.js';
 
 export async function forecast(args) {
-  const config = new Conf().get(configKey);
+  const config = new Conf({ projectName: projectName }).get(configKey);
   const apiKey =
     args.apiKey ||
     args.apikey ||

@@ -2,9 +2,10 @@ import Conf from 'conf';
 import { validateApiKey, validateCityId, validateUnits } from './utils.js';
 
 export const configKey = 'weather-cli';
+export const projectName = 'Weather CLI';
 
 export async function configure(args) {
-  const config = new Conf();
+  const config = new Conf({ projectName: projectName });
 
   if (args.clear) {
     config.clear();
